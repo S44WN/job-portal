@@ -156,29 +156,24 @@ The Job Portal project is a web application built using Laravel, designed to con
 
 ---
 
-## Customization
-
-### 1. Changing Colors and Themes
-
--   Modify `style.css` to update the color scheme.
-
-### 2. Adding New Features
-
--   Add new routes in `web.php`.
--   Create corresponding controllers and views in `Controllers` and `views`.
-
----
-
 ## Deployment
 
 ### Steps to Deploy
 
 1. **Install Dependencies**
+    - Run `composer install` to install PHP dependencies.
 2. **Set Up Environment**
     - Copy `.env.example` to `.env` and configure database credentials.
 3. **Run Migrations**
-4. **Build Frontend Assets**
-5. **Start the Server**
+    - Run `php artisan migrate` to set up the database.
+4. **Seed Database**
+    - Run `php artisan db:seed` to populate the database with sample data.
+5. **Build Frontend Assets**
+    - Run `npm install` and `npm run dev` to compile assets.
+6. **Start the Server**
+    - Run `php artisan serve` to start the local development server.
+7. **Access the Application**
+    - Open a web browser and navigate to `http://localhost:8000`.
 
 ---
 
