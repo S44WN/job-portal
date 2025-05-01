@@ -11,7 +11,7 @@ The Job Portal project is a web application built using Laravel, designed to con
 ### 1. Backend
 
 **Laravel Framework**: A PHP-based web application framework used for building the backend of the application.  
-**Version**: Referenced in the project as `Laravel v{{ Illuminate\Foundation\Application::VERSION }}`.
+**Version**: Referenced in the project as `Laravel v10`.
 
 **Features utilized:**
 
